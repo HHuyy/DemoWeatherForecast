@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0324A12102E69B000EB0B7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0324A02102E69B000EB0B7 /* TableViewCell.swift */; };
 		DB32A46D210043B400D19410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32A46C210043B400D19410 /* AppDelegate.swift */; };
 		DB32A46F210043B400D19410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32A46E210043B400D19410 /* ViewController.swift */; };
 		DB32A472210043B400D19410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB32A470210043B400D19410 /* Main.storyboard */; };
 		DB32A474210043B400D19410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB32A473210043B400D19410 /* Assets.xcassets */; };
 		DB32A477210043B400D19410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB32A475210043B400D19410 /* LaunchScreen.storyboard */; };
+		DB5B48A12100765F00EAA8F8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B48A02100765F00EAA8F8 /* DataService.swift */; };
+		DB5B48A3210076C700EAA8F8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B48A2210076C700EAA8F8 /* Weather.swift */; };
+		DBECA1412106DA570016227E /* UIImageView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECA1402106DA570016227E /* UIImageView+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB0324A02102E69B000EB0B7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DB32A469210043B400D19410 /* DemoWeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoWeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB32A46C210043B400D19410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB32A46E210043B400D19410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		DB32A473210043B400D19410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB32A476210043B400D19410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB32A478210043B400D19410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5B48A02100765F00EAA8F8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DB5B48A2210076C700EAA8F8 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		DBECA1402106DA570016227E /* UIImageView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,12 @@
 			children = (
 				DB32A46C210043B400D19410 /* AppDelegate.swift */,
 				DB32A46E210043B400D19410 /* ViewController.swift */,
-				DB32A470210043B400D19410 /* Main.storyboard */,
+				DB0324A02102E69B000EB0B7 /* TableViewCell.swift */,
+				DB5B48A02100765F00EAA8F8 /* DataService.swift */,
+				DB5B48A2210076C700EAA8F8 /* Weather.swift */,
+				DBECA1402106DA570016227E /* UIImageView+Extentions.swift */,
 				DB32A473210043B400D19410 /* Assets.xcassets */,
+				DB32A470210043B400D19410 /* Main.storyboard */,
 				DB32A475210043B400D19410 /* LaunchScreen.storyboard */,
 				DB32A478210043B400D19410 /* Info.plist */,
 			);
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0324A12102E69B000EB0B7 /* TableViewCell.swift in Sources */,
 				DB32A46F210043B400D19410 /* ViewController.swift in Sources */,
 				DB32A46D210043B400D19410 /* AppDelegate.swift in Sources */,
+				DBECA1412106DA570016227E /* UIImageView+Extentions.swift in Sources */,
+				DB5B48A12100765F00EAA8F8 /* DataService.swift in Sources */,
+				DB5B48A3210076C700EAA8F8 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
