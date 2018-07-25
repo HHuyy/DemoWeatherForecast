@@ -11,7 +11,6 @@ typealias DICT = Dictionary<AnyHashable, Any>
 
 class DataService {
     static var shared: DataService = DataService()
-    var weather: Weather?
     
     func getData(completedHandler: @escaping(Weather) -> Void) {
         let url: String = "https://api.apixu.com/v1/forecast.json?key=7ef0663d09174c43b9d12527181807&q=Paris&days=7"
